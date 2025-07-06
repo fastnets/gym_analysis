@@ -7,11 +7,12 @@
 ## Структура репозитория
 
 /
-??? gym_churn_analysis.ipynb # Основной Jupyter Notebook с анализом и кодом
-??? requirements.txt # Список используемых библиотек
+??? gym_churn_analysis.ipynb         # Основной Jupyter Notebook с анализом и кодом
+??? requirements.txt                 # Список используемых библиотек
 ??? data/
-? ??? gym_members_exercise_tracking.csv # Исходный датасет 
-??? README.md # Описание проекта (этот файл)
+?   ??? gym_members_exercise_tracking.csv  # Исходный датасет
+??? README.md                        # Описание проекта (этот файл)
+
 
 
 ## Используемые технологии
@@ -58,15 +59,15 @@
 
 1. Клонируйте репозиторий:
 
-git clone https://github.com/fastnets/gym_analysis
+```git clone https://github.com/fastnets/gym_analysis```
 
 2. Установите зависимости:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 3. Откройте Jupyter Notebook:
 
-jupyter notebook gym_churn_analysis.ipynb
+```jupyter notebook gym_churn_analysis.ipynb```
 
 4. Запустите все ячейки по порядку для воспроизведения анализа.
 
